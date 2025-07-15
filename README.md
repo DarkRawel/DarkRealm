@@ -3,6 +3,7 @@
 DarkRealm is a fantasy-themed text adventure game written in Python.  
 You’ll explore mysterious lands, make difficult choices, and shape your destiny — one line at a time.
 For now just a small demo since I just started no development.
+If you what you can join me no this jury.
 
 ---
 
