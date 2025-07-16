@@ -1,29 +1,75 @@
 # 🕹️ DarkRealm - A Text-Based Adventure Game
 
 **DarkRealm** is a fantasy-themed text adventure game written in Python.  
-You’ll explore mysterious lands, make difficult choices, and shape your destiny — one line at a time.
+Explore mysterious lands, face powerful enemies, and shape your destiny — one line at a time.
 
-> 🚧 This is just a small demo — development has just begun.  
-> 🧭 If you’d like, feel free to join me on this journey!
+> 🚧 Development is in early stages. Contributions, feedback, and ideas are welcome!
 
 ---
 
 ## 🚀 Features
 - 🧙 Character creation (name, class)
 - 📜 Choice-based storytelling
-- ⚔️ Simple combat and inventory
-- 🎨 ASCII visuals (for fun)
-- 🧩 Expandable story system
+- ⚔️ Basic combat and inventory system
+- 🎨 ASCII art for characters and scenes
+- 💾 Save/load functionality
+- 🧩 Modular and expandable story system
+
+---
+
+## 📁 Project Structure
+
+```bash
+darkrealm/
+├── main.py              # Entry point
+├── game/                # Core logic and game systems
+│   ├── __init__.py
+│   ├── player.py
+│   ├── inventory.py
+│   ├── enemies.py
+│   ├── ascii_art.py
+│   └── utils.py
+├── story/               # JSON story files
+│   └── intro.json
+├── saves/               # Player save files
+├── art/                 # ASCII art
+│   └── dragon.txt
+└── README.md
+```
 
 ---
 
 ## 🛠 Requirements
+
 - Python **3.10+**
 - Works in any **terminal** or **command line**
+- Recommended: VSCode or another code editor for development
 
 ---
 
 ## ▶️ How to Run
 
 ```bash
-python game.py
+cd darkrealm
+python main.py
+```
+
+---
+
+## 🌱 Contributing
+
+Got an idea for a quest? A cool ASCII dragon? Found a bug?  
+Feel free to open an issue or submit a pull request!
+
+---
+
+## 📜 License
+
+MIT License. Free to use, modify, and share.
+
+---
+
+## 📫 Contact
+
+Made by [@DarkRawel](https://github.com/DarkRawel)  
+Inspired by retro RPGs, fantasy, and interactive fiction.
