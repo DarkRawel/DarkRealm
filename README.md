@@ -21,8 +21,8 @@ Explore mysterious lands, face powerful enemies, and shape your destiny — one 
 
 ```bash
 darkrealm/
-├── main.py              # Entry point
-├── game/                # Core logic and game systems
+├── game.py              # Entry point
+├── assets/                # Core logic and game systems
 │   ├── __init__.py
 │   ├── player.py
 │   ├── inventory.py
