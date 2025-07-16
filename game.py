@@ -43,16 +43,9 @@ def first_scene(name, player_class):
     elif path == "2":
         slow("The mist swallows you whole. Shadows move in silence.")
         slow("Suddenly something runs towards you.")
-        attack_encounter()
 
     else:
         slow("You stand still for too long... and the forest claims you.")
-    
-def attack_encounter():
-    pass
-
-def enemy():
-    pass
 
 if __name__ == "__main__":
     intro()
