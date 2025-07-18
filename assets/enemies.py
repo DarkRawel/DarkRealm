@@ -1,1 +1,2 @@
-# this is where enemies will be managed.
+class Enemies:
+    pass
