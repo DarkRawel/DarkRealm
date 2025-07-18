@@ -12,11 +12,10 @@ class Player:
 
     def set_class_health(self, player_class):
         class_health = {
-            'wizard': 90,
-            'fighter': 120,
-            'rogue': 100,
-            'Bard': 90
-
+            'wizard': 45,
+            'fighter': 65,
+            'rogue': 60,
+            'Bard': 50
         }
         return class_health.get(player_class.lower(), 100)
 
@@ -30,3 +29,18 @@ class Player:
         print(f"HP: {self.health}")
         print(f"Level: {self.level}")
         print(f"Inventory: {', '.join(self.inventory.items) or 'Empty'}")
+
+    @property
+    def is_alive(self):
+        return self.health > 0
+
+    def gain_experience(self, amount):
+        self.experience += amount
+        if self.experience >= self.level * 100:
+            self.level_up()
+
+    def level_up(self):
+        self.level += 1
+        self.experience = 0
+        self.health += 10
+        print(f"{self.name} leveled up! Level: {self.level}, HP: {self.health}")
