@@ -3,6 +3,9 @@
 **DarkRealm** is a fantasy-themed text adventure game written in Python.  
 Explore mysterious lands, face powerful enemies, and shape your destiny — one line at a time.
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 > 🚧 Development is in early stages. Contributions, feedback, and ideas are welcome!
 
 ---
@@ -22,18 +25,18 @@ Explore mysterious lands, face powerful enemies, and shape your destiny — one 
 ```bash
 darkrealm/
 ├── game.py              # Entry point
-├── assets/                # Core logic and game systems
+├── [assets/](./assets)              # Core logic and game systems
 │   ├── __init__.py
 │   ├── player.py
 │   ├── inventory.py
 │   ├── enemies.py
 │   ├── ascii_art.py
-|   ├── weapon.py
+│   ├── weapon.py
 │   └── utils.py
-├── story/               # JSON story files
+├── [story/](./story)               # JSON story files
 │   └── intro.json
-├── saves/               # Player save files
-├── art/                 # ASCII art
+├── [saves/](./saves)               # Player save files
+├── [art/](./art)                 # ASCII art
 │   └── dragon.txt
 ├── LICENSE
 └── README.md
@@ -53,7 +56,7 @@ darkrealm/
 
 ```bash
 cd darkrealm
-python main.py
+python game.py
 ```
 
 ---
@@ -62,6 +65,8 @@ python main.py
 
 Got an idea for a quest? A cool ASCII dragon? Found a bug?  
 Feel free to open an issue or submit a pull request!
+
+To add new story scenes, place JSON files in the `story/` directory and follow the format used in `intro.json`.
 
 ---
 
