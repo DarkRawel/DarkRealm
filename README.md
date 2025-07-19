@@ -34,6 +34,7 @@ darkrealm/
 ├── saves/               # Player save files
 ├── art/                 # ASCII art
 │   └── dragon.txt
+├── LICENSE
 └── README.md
 ```
 
