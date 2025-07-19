@@ -1,19 +1,19 @@
 from inventory import Inventory
 
 class Player:
-    def __init__(self, name, player_class):
+    def __init__(self, name, player_class, level):
         self.name = name
         self.player_class = player_class
         self.health = self.set_class_health(player_class)
         self.gold = 0
-        self.level = 1
+        self.level = level
         self.experience = 0
         self.inventory = Inventory()
 
     def set_class_health(self, player_class):
         class_health = {
-            'wizard': 45,
-            'fighter': 65,
+            'wizard': 40,
+            'fighter': 70,
             'rogue': 60,
             'Bard': 50
         }
