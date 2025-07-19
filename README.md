@@ -28,6 +28,7 @@ darkrealm/
 │   ├── inventory.py
 │   ├── enemies.py
 │   ├── ascii_art.py
+|   ├── weapon.py
 │   └── utils.py
 ├── story/               # JSON story files
 │   └── intro.json
