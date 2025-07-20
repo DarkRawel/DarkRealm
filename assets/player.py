@@ -15,7 +15,7 @@ class Player:
             'wizard': 40,
             'fighter': 70,
             'rogue': 60,
-            'Bard': 50
+            'bard': 50
         }
         return class_health.get(player_class.lower(), 100)
 
