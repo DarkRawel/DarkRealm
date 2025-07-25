@@ -1,3 +1,5 @@
+# weapon
+
 from player import Player
 
 class Weapon:

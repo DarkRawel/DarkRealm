@@ -1,3 +1,5 @@
+# inventory
+
 class Inventory:
     def __init__(self, max_items=10):
         self.max_items = max_items

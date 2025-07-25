@@ -1,3 +1,5 @@
+# player
+
 from inventory import Inventory
 
 class Player:
